@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CurrencyConverter</title>
+  </head>
+  <body>
+    <section>
+      <div class="container">
+        <h1>Cha-Ching <i class="fa fa-money"></i></h1>
+        <i class="fa fa-search"></i>
+        <h3>
+          Currency Converter
+        </h3>
+        <p>Select your desired currency</p>
+        <div class="currencies">
+            <!-- CURRENCY ONE -->
+            <div class="currency" >
+                <select id="currencyOne" >
+                   
+                </select>
+                <input type="number" name="" id="amountOne" placeholder="0" value="1" />
+            </div>
+
+            <!-- CURRENCY TWO -->
+        <div class="currency">
+          <select id="currencyTwo">
+            
+          </select>
+          <input type="number" name="" id="amountTwo" placeholder="0" />
+        </div>
+        </div>
+
+<!-- CONVERT BUTTON -->
+        <button class="findRates" id="findRates">Convert
+              <i class="fa fa-money"></i>
+              <audio id="audio" src="./audio/chaching-1.mp3"></audio>
+        </button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+
+  </body>
+</html>
